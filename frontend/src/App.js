@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FeatureSection from './components/FeatureSection';
 import TestimonialSection from './components/TestimonialSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Hero />
     <FeatureSection />
     <TestimonialSection />
+    <Footer />
     </>
   );
 }

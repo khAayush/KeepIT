@@ -1,7 +1,7 @@
 const Hero = () => {
     return ( 
         <section className="flex flex-col md:flex-row justify-between items-center px-8 py-12 bg-[#f7f8fa]">
-      {/* Left Side (Text) */}
+      
       <div className="flex-1 flex flex-col gap-7 max-w-xl">
         <div className="flex items-center gap-2 bg-white rounded-full px-3 py-1 w-max shadow-sm text-sm font-medium text-gray-600">
           <span className="h-2 w-2 bg-yellow-400 rounded-full inline-block"></span>
@@ -44,21 +44,20 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Side (Image with overlays) */}
       <div className="flex-1 flex justify-center mt-10 md:mt-0 relative">
-        {/* Main Image Placeholder */}
+
         <div className="bg-white rounded-2xl shadow-lg w-[700px] h-[500px] flex items-center justify-center overflow-hidden relative">
           <img
             src="https://www.eturns.com/media/3zplwqov/cmi-tips-cover.png?width=1400&height=700&v=1da6e60e34b4e50"
             alt="asset-management-illustration"
             className="object-cover w-full h-full"
           />
-          {/* Overlay - Tickets solved */}
+
           <div className="absolute top-4 right-4 flex items-center bg-white px-4 py-2 rounded-xl text-sm shadow-md">
             <span className="h-3 w-3 bg-green-500 rounded-full block mr-2"></span>
             All Tickets Solved
           </div>
-          {/* Overlay - Assets added today */}
+
           <div className="absolute bottom-4 left-4 bg-blue-600 text-white px-5 py-2 rounded-xl font-medium text-sm shadow">
             +127<br />
             <span className="font-normal text-xs">Assets Added Today</span>
