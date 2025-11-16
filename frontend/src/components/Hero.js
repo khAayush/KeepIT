@@ -2,7 +2,7 @@ const Hero = () => {
     return ( 
         <section className="flex flex-col md:flex-row justify-between items-center px-8 py-12 bg-[#f7f8fa]">
       
-      <div className="flex-1 flex flex-col gap-7 max-w-xl">
+      <div className="flex-1 flex flex-col gap-7 max-w-xl px-24">
         <div className="flex items-center gap-2 bg-white rounded-full px-3 py-1 w-max shadow-sm text-sm font-medium text-gray-600">
           <span className="h-2 w-2 bg-yellow-400 rounded-full inline-block"></span>
           Trusted by 500+ IT Teams
@@ -18,13 +18,13 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium shadow focus:outline-none transition">
+          <a href="/login" className="bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-6 py-3 transition font-medium shadow">
             Get Started
-          </button>
-          <button className="flex items-center gap-2 bg-white border border-gray-200 text-gray-700 px-5 py-3 rounded-lg font-semibold hover:shadow transition">
+          </a>
+          <a href="/" className="flex items-center gap-2 bg-white border border-gray-200 text-gray-700 px-5 py-3 rounded-lg font-semibold hover:shadow transition">
             <svg width="20" height="20" fill="none" stroke="currentColor" className="mr-1" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" strokeWidth="2"/><polygon points="10,8 16,12 10,16 10,8" fill="currentColor"/></svg>
             Watch Demo
-          </button>
+          </a>
         </div>
         <div className="flex gap-10 mt-7">
           <div>
@@ -60,7 +60,7 @@ const Hero = () => {
 
           <div className="absolute bottom-4 left-4 bg-blue-600 text-white px-5 py-2 rounded-xl font-medium text-sm shadow">
             +127<br />
-            <span className="font-normal text-xs">Assets Added Today</span>
+            <span className="font-normal text-xs">Assets Managed Today</span>
           </div>
         </div>
       </div>

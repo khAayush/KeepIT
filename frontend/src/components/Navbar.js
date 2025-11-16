@@ -13,10 +13,10 @@ const Navbar = () => {
   
   return ( 
     <nav
-      className={`transition-all duration-300 ${
+      className={`transition-all duration-500 ${
         isSticky
-          ? 'fixed flex items-center justify-between px-8 py-4 w-full z-50 bg-white shadow'
-          : 'flex items-center justify-between px-8 py-4 bg-white shadow-sm'
+          ? 'fixed flex items-center justify-between px-32 py-4 w-full z-50 bg-white shadow'
+          : 'flex items-center justify-between px-32 py-4 bg-white shadow-sm'
       }`}
     >
         <div className="flex items-center gap-2">
@@ -34,8 +34,8 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center gap-4">
-        <a href="/signin" className="text-gray-700 hover:text-gray-900 transition">Sign Up</a>
-        <a href="/signup" className="bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-5 py-2 transition font-medium">
+        <a href="/signup" className="text-gray-700 hover:text-gray-900 transition">Sign Up</a>
+        <a href="/login" className="bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-5 py-2 transition font-medium">
           Login
         </a>
       </div>
