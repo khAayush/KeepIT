@@ -18,7 +18,7 @@ const Signup = () => {
         <div className="mb-7 flex flex-col items-center">
           <div className="flex items-center space-x-2 mb-4">
             <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-600 text-white font-medium text-lg">
-              360°
+              360
             </div>
             <span className="text-gray-900 text-xl font-medium">ThreeSixty</span>
           </div>

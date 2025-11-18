@@ -20,8 +20,8 @@ const Navbar = () => {
       }`}
     >
         <div className="flex items-center gap-2">
-        <div className="w-10 h-10 flex items-center justify-center bg-blue-600 rounded-full">
-          <span className="text-white font-medium text-lg">360°</span>
+        <div className="w-10 h-10 flex items-center justify-center bg-blue-600 rounded-xl">
+          <span className="text-white font-medium text-lg">360</span>
         </div>
         <span className="text-gray-900 text-lg font-normal">ThreeSixty</span>
       </div>
